@@ -1,0 +1,121 @@
+header {
+  background-color: #515151;
+  box-sizing: border-box;
+  width: 90%;
+  display: inline-block;
+  height: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1.logo, h.logo {
+  margin-left: 5%;
+}
+
+nav {
+  width: 30%;
+  background-color: #000000;
+  float: right;
+  text-align: center;
+  margin-top: 2.5%;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+
+a {
+  color: #FFFFFF;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Georgia, Times, serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h1, h5 {
+  color: #707373;
+  float: left;
+  font-family: Georgia, Times, serif;
+  margin-left: 5%;
+}
+
+
+main {
+  clear:both;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section {
+  margin-top: 5%;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0% 0% 0% 10%;
+  float: right;
+  border-left: 1px #D3D3D3 solid;
+  margin-bottom: 5%;
+}
+
+section > img {
+  padding-left: 2%;
+  border-left: 1px #D3D3D3 solid;
+  float: right;
+}
+
+
+article {
+  box-sizing: border-box;
+  width: 33%;
+  padding-bottom: 5%;
+  display: inline-block;
+  padding-right: 1%;
+  float: inherit;
+}
+
+article > img {
+  float: left;
+  padding: 1%;
+  border: 1px #D3D3D3 solid;
+  margin-right: 4%;
+  margin-bottom: 8%;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #999999;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #FF960D;
+  float: right;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+}
+
+p {
+  color: #999999;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+}
+
+footer {
+  width: 90%;
+  height: 3%;
+  background-color: #000000;
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h4 {
+  color: #CCCCCC;
+  font-family: Georgia, Times, serif;
+  font-size: 10px;
+  margin-left: 5%;
+}

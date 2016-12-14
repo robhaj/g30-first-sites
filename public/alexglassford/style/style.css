@@ -1,0 +1,110 @@
+/*Upper Section*/
+
+header {
+  background-color: #333333;
+  color: #BFB9B5;
+  margin: 2px 2px;
+}
+
+/*Company name and subtext*/
+
+.company{
+  display: inline-block;
+  background-color: #333333;
+  padding-left: 3rem;
+  font-family: sans-serif;
+}
+.company h1{
+  color: #FFB240;
+  font-size: 3rem;
+  margin-bottom: 1px;
+  border-top: 1px solid #FFB240;
+}
+.company h2{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-top: 1px;
+  padding-left: 2rem;
+  border-bottom: 4px solid #FFB240;
+}
+.company h6{
+  text-align: right;
+  margin-top: 1px;
+  padding-top: 1px;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+  background-color: #232323;
+  float: right;
+  margin: 3rem 3rem;
+}
+.navbar li{
+  color: #FFB240;
+  display: inline-block;
+  margin-right: 2rem;
+  padding: 2px 2px;
+}
+
+/*
+Middle Section
+*/
+
+p{
+  color:  #CCCCCC;
+}
+
+/*Main Article*/
+
+.center-section{
+  display: inline-block;
+}
+.center-article{
+  float: left;
+  width: 30rem;
+  margin: 1rem 0 0 0;
+  padding: 0rem 1rem 0 4rem;
+}
+.building{
+  float: right;
+  width: 50rem;
+  height: auto;
+  padding: 0rem 3rem 0 1.5rem;
+  margin: 1rem 0 0 0;
+  border-left: 2px solid #FFB240;
+}
+
+/*
+Bottom Section
+*/
+
+.lower-section{
+  margin: auto 5rem auto 5rem;
+}
+.bottom-aside{
+  display: inline-block;
+  width: 33%
+}
+.headshots{
+  float: left;
+  width: 38%;
+  padding: none;
+  margin-right: 2rem;
+  margin-bottom: 1px;
+}
+.read{
+  text-align: right;
+}
+.read a{
+  color: #FFB240;
+  text-decoration: none;
+}
+footer{
+  font-size: small;
+  text-align: center;
+  background-color: #333333;
+  margin: 5rem 2px 2px 2px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

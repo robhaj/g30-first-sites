@@ -1,0 +1,93 @@
+
+/*
+=======================================
+Grid
+=======================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+.grid {
+  width: 960px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+/*
+===================================================
+Text
+===================================================
+*/
+
+body {
+  text-align: left;
+  background: #ffdead;
+  color: #2f4f4f;
+  font: 300 18px/36px Tahoma, sans-serif;
+  padding: 22px 80px 66px 80px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 66px;
+  text-decoration: underline;
+  text-shadow: 2px 2px 1px #00b374;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+  text-shadow: 1.5px 1.5px .75px #00b374;
+}
+
+p {
+  text-align: justify;
+  text-shadow: 1.25px 1.25px .75px #fff;
+  border: 2px solid #2f4f4f;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding: 4px;
+}
+
+
+/*
+===================================================
+Links
+===================================================
+*/
+
+a {
+  color: #ff1a1a
+}
+
+a:hover {
+  color: #2f4f4f
+}
+
+/*
+===================================================
+Images
+===================================================
+*/
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.gif {
+  width: 400px;
+  height: 300px;
+  display: inline;
+}

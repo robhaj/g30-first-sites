@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+body {
+	background-color: #F2F2F2;
+}
+h1 {
+	font-family: Hammersmith One, Arial, sans-serif;
+	color: #2E0854;
+	font-size: 60px;
+	display: block;
+	position: center;
+	padding: 10px;
+}
+h2 {
+	font-family: Hammersmith One, Arial, sans-serif;
+	color: #2E0854;
+	font-size: 20px;
+	display: block;
+	position: center;
+}
+p {
+	font-family: Arvo, Arial, sans-serif;
+	color: #4B0082;
+	text-align: justify;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+ul {
+	font-family: Arvo, Arial, sans-serif;
+	color: #4B0082;
+	text-align: justify;
+}
+.mainpage-pic {
+	width: 30%;
+	float: left;
+	border-radius: 70px;
+	padding: 20px;
+	display: inline;
+	align-self: baseline;
+}
+.gif {
+	width: 50%;
+	clear: both;
+	padding-left: 50px;
+}
+.playpicture {
+	display: inline-grid;
+	margin: auto;
+	width: 250px;
+}
+.worktext {
+	float: left;
+}
+.logopics {
+	width: 7%;
+	float: left;
+	padding: 10px;
+	margin: auto;
+	display: inline-grid;
+}
+.btn {
+  background-color: #2E0854;
+  border: none;
+	font-family: Arvo, Arial, sans-serif;
+	text-decoration: none;
+  color: #F2F2F2;
+	font-size: 16px;
+  padding: 20px 25px;
+	margin: 5px;
+	border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+.btn-home {
+	float: right;
+}
+.btn:hover {
+    background-color: #F2F2F2;
+    color: #2E0854;
+}
+.verticalalign {
+  padding: 30px 0;
+}
+.playpicture:hover {
+	opacity: 1;
+}
+footer {
+	clear: both;
+}

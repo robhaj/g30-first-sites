@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Site</title>
+    <!-- Personal CSS -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <!-- Normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class="wrapper">
+    <header>
+        <img id="logo" src="http://www.bigboxx.in/wp-content/uploads/2014/07/html5css3.png">
+        <nav>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li id="dropdown">About
+                    <ul>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Our Team</a></li>
+                    </ul>
+                </li>
+                <li id="dropdown">Services
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Developement</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img id="about" src="https://images.unsplash.com/photo-1467094568967-95f87ee9c873?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=51fe3b51e0512cc9fe5115040716205b">
+        <h1>About</h1>
+        <section>
+            <h2>Our Company</h2>
+            <p>Bespoke health goth biodiesel, typewriter tote bag tacos stumptown. Occupy literally cardigan fanny pack, direct trade umami cornhole portland. Keffiyeh brunch roof party chia. Food truck taxidermy marfa, fixie chillwave lumbersexual readymade plaid DIY 3 wolf moon. Green juice microdosing waistcoat ennui XOXO. Austin ramps retro, fingerstache offal pabst jean shorts four loko gentrify selvage. Lo-fi polaroid celiac mumblecore, fashion axe 90's humblebrag salvia keytar artisan portland.
+            </p>
+            <p>Brunch craft beer stumptown, wolf squid YOLO humblebrag yr intelligentsia. Twee chia small batch irony DIY, hashtag bushwick bicycle rights church-key lo-fi scenester. Kinfolk kombucha pinterest viral banjo. Blog sriracha taxidermy, keffiyeh next level bushwick gochujang lomo sustainable aesthetic franzen YOLO bitters chicharrones. Waistcoat next level bespoke typewriter meh. Etsy kale chips occupy, literally neutra shabby chic paleo chillwave tofu plaid meggings trust fund. Tousled banh mi YOLO, normcore ugh roof party chicharrones cardigan selvage twee organic art party.</p>
+        </section>
+        <h2>Our Team</h2>
+        <section class="team">
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Dangleburn Consortkink</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Scrambleshort Brunklecrack</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Shambleshack Cribblethumb</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Fumbleshort Sparkleyak</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Thunderwart Sparkleslink</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+            <div class="profile">
+                <img id="team_member" src="https://www.carthage.edu/themes/toph/assets/img/generic-logo.png">
+                <h3>Candlechink Tamperthwart</h3>
+                <p>Pariatur voluptate godard, bitters asymmetrical celiac schlitz hammock organic tote bag swag hashtag drinking vinegar nostrud. </p>
+            </div>
+        </section>
+        <h1>Services</h1>
+        <section>
+            <h2>Web Design</h2>
+            <p>Narwhal umami seitan, franzen migas art party kombucha stumptown freegan food truck everyday carry kale chips cray. Aesthetic hashtag art party keytar, gastropub fixie 3 wolf moon godard squid hoodie williamsburg crucifix +1 drinking vinegar keffiyeh. Roof party direct trade pickled tilde, man bun seitan tumblr mustache 8-bit offal shoreditch organic sriracha taxidermy cold-pressed.
+            </p>
+        </section>
+        <section>
+            <h2>Web Developement</h2>
+            <p>Heirloom gluten-free jean shorts man braid meditation franzen. Single-origin coffee deep v semiotics, skateboard literally retro health goth cliche synth bespoke stumptown banjo yuccie fixie. Cardigan humblebrag fap, neutra meh chillwave waistcoat slow-carb pug pour-over poutine photo booth artisan microdosing.
+            </p>
+        </section>
+        <h1>Contact</h1>
+        <footer id="contact">
+            <form>
+                <input type="text" name="name" placeholder="FIRST & LAST NAME" required>
+                <input type="email" name="email" placeholder="EMAIL" required>
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <button name="send" type="submit" class="submit">SEND</button>
+            </form>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+            </ul>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60822.95474940052!2d-162.1166071658887!3d5.867174908904364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a3ea440cc386595%3A0xeeb4000b2a8ea3bf!2sPalmyra+Atoll!5e1!3m2!1sen!2sus!4v1468203118046" width="400" height="325" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </footer>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

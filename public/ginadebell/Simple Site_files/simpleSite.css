@@ -1,0 +1,46 @@
+header {
+  background-color: #515151;
+  box-sizing: border-box;
+  width: 90%;
+  display: inline-block;
+  height: 80px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #000000;
+  float: right;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+
+}
+
+ul {
+  color: #FFFFFF;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Georgia, Times, serif;
+
+}
+
+h1, h5 {
+  color: #707373;
+  float: left;
+  font-family: Georgia, Times, serif;
+}
+
+section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5%;
+}
+
+
+img {
+  margin-right: 5%;
+  float: right;
+  border-left: 1px #D3D3D3 solid;
+  padding-left: 10px;
+}

@@ -1,0 +1,119 @@
+p {
+	font-size: 12px;
+}
+
+.clear {
+	clear:both;
+}
+
+header {
+	background-color: grey;	
+
+}
+
+.tagline {
+	box-sizing: border-box;
+	float: left;
+	margin-left: 10%;
+}
+
+.tagline p {
+	margin-top: -15px;
+
+}
+
+.navbox {
+	box-sizing: border-box;
+	float:right;
+	margin-right: 8%;
+	margin-top: 30px;
+	background-color: black;
+	padding: 15px;
+}
+
+.nav {
+	
+	display: inline-block;
+}
+
+.nav a {
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	
+}
+
+.twocol {
+	margin-top: 15px;
+	width: 100%;
+
+}
+
+.leftcol {
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+
+}
+
+.imagebox {
+	box-sizing: border-box;
+	float: right;
+	width: 66.66%;
+
+}
+
+.verticalLine {
+	border-left: solid grey;
+	margin-right: 15px;
+	height: 300px;
+	float: left;
+}
+
+article {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 33%;
+	float:left;
+	padding: 10px;
+}
+
+article img {
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 15px;
+
+}
+
+article h1 {
+	font-size: 1.3rem;
+}
+
+article p {
+	font-size: 1rem;
+
+}
+
+article p + a {
+	font-size: 1rem;
+	float: right;
+	color: orange;
+	margin-top: -5px;
+	text-decoration: none;
+
+}
+
+.foot {
+	background-color: grey;
+	height: 50px;
+	margin-top: 50px;
+
+}
+
+.foot p {
+	color white;
+	float: left;
+	margin-left: 10%;
+
+}

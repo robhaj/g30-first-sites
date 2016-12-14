@@ -1,0 +1,115 @@
+h1, h2, p, nav li {
+  font-family: "Times New Roman", Georgia, Serif;
+  color: #999;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: "Times New Roman", Georgia, Serif;
+  text-decoration: underline;
+  float: right;
+  color: orange;
+}
+
+h3::after {
+  content: ' >>';
+}
+
+p {
+  font-size: 12px;
+}
+
+article p::first-letter {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+}
+
+nav li:hover {
+  color: orange;
+}
+
+h3:hover {
+  color: green;
+}
+
+header {
+  display: table;
+  position: relative;
+  box-sizing: border-box;
+  background: #333;
+  width: 100%;
+  padding: 40px 90px;
+}
+
+/* navigation */
+nav {
+  float: right;
+}
+
+h1, nav li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+nav li {
+  background: #111;
+  padding: 1rem;
+}
+/* navigation end */
+
+main {
+  padding: 30px 60px 60px;
+}
+
+section {
+  float: right;
+  width: 670px;
+  height: 300px;
+  border-left: 1px solid #999;
+}
+
+article {
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+  padding: 30px;
+  word-wrap: break-word;
+}
+
+footer {
+  box-sizing: border-box;
+  color: #999;
+  background: #444;
+  padding: 10px 90px;
+}
+
+/* Clear */
+.clear {
+  clear: both;
+}
+
+/* media */
+img {
+  width: 630px;
+  height: 300px;
+  float: right;
+  margin-right: 30px;
+}
+
+img.small {
+  width: 80px;
+  height: 80px;
+  float: left;
+  padding: 5px;
+  border: 1px solid #999;
+}
