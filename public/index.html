@@ -3,29 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>g30's First Sites</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .navbar {
+        width: 200px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+      }
+      .navbar a {
+        display: block;
+        padding: 0.2em 1em;
+      }
+      .navbar li {
+        list-style: none;
+        margin: 0;
+      }
+      .viewer {
+        display: inline-block;
+        width: calc(100% - 205px);
+        height: 100vh;
+      }
+    </style>
   </head>
   <body>
-  <ul>
-    <a href='/adamfranzen'><li>Adam Franzen</li></a>
-    <a href="/akikookabe"><li>Akiko Okabe</li></a>
-    <a href="/alexglassford"><li>Alex Glassford</li></a>
-    <a href="/alexnye"><li>Alex Nye</li></a>
-    <a href="/aliasmontoya"><li>Alias Montoya</li></a>
-    <a href="/austinmahan"><li>Austin Mahan</li></a>
-    <a href="/brandonblair"><li>Brandon Blair</li></a>
-    <a href="/derekstyer"><li>Derek Styer</li></a>
-    <a href="/georgevickstrom"><li>George Vickstrom</li></a>
-    <a href="/ginadebell"><li>Gina Debell</li></a>
-    <a href="/isaacmiller"><li>Isaac Miller</li></a>
-    <a href="/jordonhoshor"><li>Jordon Hoshor</li></a>
-    <a href="/kristjangannon"><li>Kristjan Gannon</li></a>
-    <a href="/markdickinson"><li>Mark Dickinson</li></a>
-    <a href="/nathanbrown"><li>Nathan Brown</li></a>
-    <a href="/ryanharings"><li>Ryan Harings</li></a>
-    <a href="/ryanpando"><li>Ryan Pando</li></a>
-    <a href="/samgoldsmith"><li>Sam Goldsmith</li></a>
-    <a href="/tommygaessler"><li>Tommy Gaessler</li></a>
-    <a href="/tylermaier"><li>Tyler Maier</li></a>
+  <ul class="navbar">
+    <a href="/adamfranzen" target="viewer"><li>Adam Franzen</li></a>
+    <a href="/akikookabe" target="viewer"><li>Akiko Okabe</li></a>
+    <a href="/alexglassford" target="viewer"><li>Alex Glassford</li></a>
+    <a href="/alexnye" target="viewer"><li>Alex Nye</li></a>
+    <a href="/aliasmontoya" target="viewer"><li>Alias Montoya</li></a>
+    <a href="/allenfordham" target="viewer"><li>Allen Fordham</li></a>
+    <a href="/austinmahan" target="viewer"><li>Austin Mahan</li></a>
+    <a href="/brandonblair" target="viewer"><li>Brandon Blair</li></a>
+    <a href="/derekstyer" target="viewer"><li>Derek Styer</li></a>
+    <a href="/georgevickstrom" target="viewer"><li>George Vickstrom</li></a>
+    <a href="/ginadebell" target="viewer"><li>Gina Debell</li></a>
+    <a href="/isaacmiller" target="viewer"><li>Isaac Miller</li></a>
+    <a href="/jordonhoshor" target="viewer"><li>Jordon Hoshor</li></a>
+    <a href="/kristjangannon" target="viewer"><li>Kristjan Gannon</li></a>
+    <a href="/markdickinson" target="viewer"><li>Mark Dickinson</li></a>
+    <a href="/nathanbrown" target="viewer"><li>Nathan Brown</li></a>
+    <a href="/ryanharings" target="viewer"><li>Ryan Harings</li></a>
+    <a href="/ryanpando" target="viewer"><li>Ryan Pando</li></a>
+    <a href="/samgoldsmith" target="viewer"><li>Sam Goldsmith</li></a>
+    <a href="/tommygaessler" target="viewer"><li>Tommy Gaessler</li></a>
+    <a href="/tylermaier" target="viewer"><li>Tyler Maier</li></a>
   </ul>
+  <iframe class="viewer" src="about:blank" frameborder="0" name="viewer"></iframe>
   </body>
 </html>

@@ -1,1 +1,3 @@
-One stylesheet, four pages. Non-working links with the exception of inter-page navigation.
+Pictures, index and css for the simple-site (selling skyscrapers) project.
+
+No script yet.
